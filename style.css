@@ -45,3 +45,11 @@
     text-decoration: none;
     font-size: 18px;
 }
+.sidebar{
+    width: 20%;
+    height: 80%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgb(133, 207, 239);
+}
