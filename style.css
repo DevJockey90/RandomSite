@@ -15,6 +15,7 @@
     display: flex;justify-content: space-between;
     align-items: center;
     position: relative;
+    z-index: 1;
 
  }
  .logo{
@@ -27,7 +28,7 @@
 
  }
  span{
-    color: rgb(133, 207, 239); 
+    color: rgb(71, 186, 235); 
  }
  .nav-links{
     text-align: right;
@@ -52,4 +53,38 @@
     left: 0;
     top: 0;
     background: rgb(133, 207, 239);
+}
+.row{
+    padding: 0 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 5%;
+}
+.left-col{
+    flex-basis: 40%;
+
+}
+.right-col{
+    flex-basis: 55%;
+
+}
+.right-col img{
+    width: 80%;
+    height: 100%;
+    cursor: pointer;
+    filter: grayscale(0);
+    transition: filter 1s;
+}
+.right-col img:hover{
+filter: grayscale(2);
+}
+.left-col h1{
+font-size: 55px;
+font-weight: 600;
+}
+.left-col p{
+    color: rgb(84, 79, 79);
+    margin: 20px 0 70px;
 }
